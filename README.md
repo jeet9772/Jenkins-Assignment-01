@@ -40,7 +40,8 @@ Created `jenkins-assignment-repo` on GitHub.
 
 ### Add GitHub credential to Jenkins
 
-[svg](https://github.com/OT-MyGurukulam/Jenkins_35#add-github-credential-to-jenkins)
+<img width="1440" height="900" alt="Screenshot 2026-09-09 at 12 33 19 AM" src="https://github.com/user-attachments/assets/a46fde55-fa20-4457-9e2f-5786d1679563" />
+
 
 ```
 Manage Jenkins → Credentials → System → Global → Add Credentials
