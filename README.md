@@ -61,7 +61,8 @@ Manage Jenkins → Credentials → System → Global → Add Credentials
 api.slack.com/apps → Create an App
 ```
 
-[image](https://private-user-images.githubusercontent.com/181391629/645927726-3aab4bd4-07de-459f-a5fc-9c5c0bcaf4fa.png)
+<img width="1440" height="900" alt="Screenshot 2026-09-09 at 11 39 28 AM" src="https://github.com/user-attachments/assets/69d6c9fc-700b-4c77-93fc-cda8820889f5" />
+
 
 ### Get the Bot OAuth Token
 
