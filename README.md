@@ -131,7 +131,8 @@ Manage Jenkins → System → Extended E-mail Notification → Test configuratio
 
 Email was sent successfully.
 
-[image](https://private-user-images.githubusercontent.com/181391629/645928838-268c206c-37e4-4678-bb0f-93c17fabd413.png)
+<img width="1440" height="900" alt="Screenshot 2026-09-01 at 7 50 31 PM" src="https://github.com/user-attachments/assets/07537582-df06-441f-9aef-9acb24fe18b6" />
+
 
 ## Part 1: Git-Branch-Operations Job
 
