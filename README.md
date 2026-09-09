@@ -80,7 +80,8 @@ xoxb-************-************-********************
 
 Invited the "Jenkins CI" app to the `#jenkins-notifications` channel.
 
-[image](https://private-user-images.githubusercontent.com/181391629/645928016-6d9fc808-7a82-49d2-bdb0-ea7bd53df596.png)
+<img width="1440" height="900" alt="Screenshot 2026-09-01 at 8 55 04 PM" src="https://github.com/user-attachments/assets/9e593929-fe36-4729-afad-b8f52d25e302" />
+
 
 ### Add Slack credential in Jenkins
 
