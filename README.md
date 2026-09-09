@@ -148,7 +148,8 @@ BRANCH_NAME (String Parameter)
 TARGET_BRANCH (String Parameter)
 ```
 
-[image](https://private-user-images.githubusercontent.com/181391629/645929018-e714bfcf-541a-4c5d-aa6c-d4e8858db04f.png)
+<img width="1440" height="900" alt="Screenshot 2026-09-09 at 1 27 50 PM" src="https://github.com/user-attachments/assets/f730445b-2c78-4429-9bae-a87b2777cea1" />
+
 
 ### SCM configuration
 
@@ -156,7 +157,8 @@ TARGET_BRANCH (String Parameter)
 
 Points to `jenkins-assignment-repo`, branch `*/main`, using the `github-creds` credential.
 
-[image](https://private-user-images.githubusercontent.com/181391629/645929151-977a93af-3d83-48ec-9978-90fb08460611.png)
+<img width="1440" height="900" alt="Screenshot 2026-09-09 at 1 38 25 PM" src="https://github.com/user-attachments/assets/5551c255-2d2d-47cb-81b1-e74ff5737cb1" />
+
 
 ### Build step (Execute shell) with a `case` block for each action, plus Email post-build action
 
@@ -173,7 +175,8 @@ case "$ACTION" in
 esac
 ```
 
-[image](https://private-user-images.githubusercontent.com/181391629/645929444-b5745edc-1d45-4e73-86f8-6513972e6b56.png)
+<img width="1440" height="900" alt="Screenshot 2026-09-09 at 1 45 21 PM" src="https://github.com/user-attachments/assets/f3e38e29-5be2-4124-92c9-e4ab6097318e" />
+
 
 ### Slack notification post-build action
 
