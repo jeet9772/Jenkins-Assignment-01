@@ -268,10 +268,9 @@ Publish-Ninja-File - Build # 1 - Successful!
 
 [svg](https://github.com/OT-MyGurukulam/Jenkins_35#final-dashboard)
 
-All three jobs (`Create-Ninja-File`, `Git-Branch-Operations`, 
-
-`<img width="1440" height="900" alt="Screenshot 2026-09-10 at 9 52 13 PM" src="https://github.com/user-attachments/assets/2add0c4b-608a-4874-8ab0-6801711e0490" />
+All three jobs (`Create-Ninja-File`, `Git-Branch-Operations"
 `) green and healthy.
 
+<img width="1440" height="900" alt="Screenshot 2026-09-10 at 9 52 13 PM" src="https://github.com/user-attachments/assets/069d2e99-ac1e-4236-b851-17a34b2b5846" />
 
 
