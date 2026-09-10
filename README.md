@@ -184,7 +184,8 @@ esac
 
 "Notify Every Failure" checked, so a Slack message goes out whenever a step fails.
 
-[image](https://private-user-images.githubusercontent.com/181391629/645929604-0c08f6e3-5539-4bcc-9322-addaabd8806e.png)
+<img width="1440" height="900" alt="Screenshot 2026-09-10 at 3 26 51 PM" src="https://github.com/user-attachments/assets/03414608-8046-493d-b666-3c9e06f63090" />
+
 
 ### Job overview
 
