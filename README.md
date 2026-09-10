@@ -221,7 +221,8 @@ ACTION = MERGE_BRANCH, BRANCH_NAME = Deva, TARGET_BRANCH = main
 SUCCESS: Merged 'Deva' into 'main'.
 ```
 
-[image](https://private-user-images.githubusercontent.com/181391629/645930122-20fcbb4e-5178-4e2a-b0cf-081b767f2ac3.png)
+<img width="1440" height="900" alt="Screenshot 2026-09-10 at 9 36 23 PM" src="https://github.com/user-attachments/assets/95bdb9b3-d0d3-4208-ba12-e2f39392a811" />
+
 
 ### Delete a branch that doesn't exist (to trigger the failure path)
 
@@ -231,27 +232,11 @@ SUCCESS: Merged 'Deva' into 'main'.
 ACTION = DELETE_BRANCH, BRANCH_NAME = Raj, TARGET_BRANCH = main
 ```
 
-[image](https://private-user-images.githubusercontent.com/181391629/645930327-524d690e-1b27-481a-a1eb-b7fe8f65ec52.png)
+<img width="1440" height="900" alt="Screenshot 2026-09-10 at 9 37 26 PM" src="https://github.com/user-attachments/assets/743d69ef-54e2-48f9-9857-d0f60f4c3588" />
 
-### Slack failure notification received
 
-[svg](https://github.com/OT-MyGurukulam/Jenkins_35#slack-failure-notification-received)
 
-```
-Git-Branch-Operations - #16 Failure after 0.64 sec
-```
 
-[image](https://private-user-images.githubusercontent.com/181391629/645930537-57dfdfe2-cde0-45a5-a894-f9c5f9d7e496.png)
-
-### Email failure notification received
-
-[svg](https://github.com/OT-MyGurukulam/Jenkins_35#email-failure-notification-received)
-
-```
-Git-Branch-Operations - Build # 16 - Failure!
-```
-
-[image](https://private-user-images.githubusercontent.com/181391629/645930698-3220ae77-0b28-4ddd-9d14-42d8bc1ca6bf.png)
 
 ## Part 2: Create-Ninja-File → Publish-Ninja-File
 
@@ -263,37 +248,19 @@ Git-Branch-Operations - Build # 16 - Failure!
 
 Takes `Ninja_Name` as a string parameter, writes `"<Ninja Name> from DevOps Ninja"` to a file, and archives it as an artifact (`ninja_output.txt`). `Publish-Ninja-File` is configured as a downstream project so it triggers automatically after this job succeeds.
 
-[image](https://private-user-images.githubusercontent.com/181391629/645931130-7ae191bb-f583-4f23-8719-ac1c7b7d2e27.png)
+<img width="1440" height="900" alt="Screenshot 2026-09-10 at 9 45 04 PM" src="https://github.com/user-attachments/assets/14e141b1-30de-48ce-9576-6d08de8fefe6" />
+
 
 ### Run: Build with Parameters → Ninja_Name = Arjun → Build
 
-[svg](https://github.com/OT-MyGurukulam/Jenkins_35#run-build-with-parameters--ninja_name--arjun--build)
-
-Slack shows the chain of notifications - Git-Branch-Operations failures earlier, then `Publish-Ninja-File - #1 Success` firing automatically right after `Create-Ninja-File` completed.
-
-[image](https://private-user-images.githubusercontent.com/181391629/645931808-1956a66d-fa49-45f2-893d-7702fc62619a.png)
-
-### Email success notification for the downstream job
-
-[svg](https://github.com/OT-MyGurukulam/Jenkins_35#email-success-notification-for-the-downstream-job)
 
 ```
 Publish-Ninja-File - Build # 1 - Successful!
 ```
 
-[image](https://private-user-images.githubusercontent.com/181391629/645932027-4cb1274c-bb0b-406b-8fd6-8a13e4df646c.png)
+<img width="1440" height="900" alt="Screenshot 2026-09-10 at 9 50 38 PM" src="https://github.com/user-attachments/assets/b5fbbb87-f4c4-43e5-92af-7f05930f0dc3" />
 
-### Verify the file is being served by the web server
 
-[svg](https://github.com/OT-MyGurukulam/Jenkins_35#verify-the-file-is-being-served-by-the-web-server)
-
-```
-http://54.87.2.175/ninja_output.txt
-```
-
-```
-Arjun from DevOps Ninja
-```
 
 [image](https://private-user-images.githubusercontent.com/181391629/645932224-db8ce302-87df-4011-97d0-08ae80455f2f.png)
 
@@ -301,7 +268,10 @@ Arjun from DevOps Ninja
 
 [svg](https://github.com/OT-MyGurukulam/Jenkins_35#final-dashboard)
 
-All three jobs (`Create-Ninja-File`, `Git-Branch-Operations`, `Publish-Ninja-File`) green and healthy.
+All three jobs (`Create-Ninja-File`, `Git-Branch-Operations`, 
 
-[image](https://private-user-images.githubusercontent.com/181391629/645932458-c50059a1-ce34-42ea-b95f-30ebd32e8381.png)
+`<img width="1440" height="900" alt="Screenshot 2026-09-10 at 9 52 13 PM" src="https://github.com/user-attachments/assets/2add0c4b-608a-4874-8ab0-6801711e0490" />
+`) green and healthy.
+
+
 
