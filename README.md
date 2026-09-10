@@ -193,7 +193,8 @@ esac
 
 `Git-Branch-Operations` job with build history showing multiple successful and failed runs.
 
-[image](https://private-user-images.githubusercontent.com/181391629/645929765-67778648-e6c6-4cd3-8ac4-08b40b9f15e1.png)
+<img width="1440" height="900" alt="Screenshot 2026-09-10 at 8 53 30 PM" src="https://github.com/user-attachments/assets/6f7bfa4a-91a9-4b38-af7e-33eab7185090" />
+
 
 ### List all branches
 
@@ -205,7 +206,8 @@ ACTION = LIST_BRANCHES
 
 Console shows local and remote branches.
 
-[image](https://private-user-images.githubusercontent.com/181391629/645929929-269ce549-371a-4b02-a01c-610279c98cfd.png)
+<img width="1440" height="900" alt="Screenshot 2026-09-10 at 8 56 11 PM" src="https://github.com/user-attachments/assets/4b5c4327-027c-4aae-aad5-75629213798e" />
+
 
 ### Merge one branch into another
 
